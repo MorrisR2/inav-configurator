@@ -25,6 +25,8 @@ const appUpdater = require('./appUpdater');
 const CliAutoComplete = require('./CliAutoComplete');
 const { SITLProcess } = require('./sitl');
 const settingsCache = require('./settingsCache');
+// const keywordSearch = require('./keywordSearch');
+
 
 process.on('uncaughtException', function (error) {   
     if (process.env.NODE_ENV !== 'development') {
